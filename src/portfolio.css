@@ -15,13 +15,8 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-weight:bold;
+  font-weight: bold;
   font-size: 40px;
-}
-
-h2 {
-  font-size: 30px;
-  font-family: var(--heading-font-family);
 }
 
 p {
@@ -38,22 +33,46 @@ p {
   color: black;
 }
 
+h2 {
+  font-size: 30px;
+  font-family: var(--heading-font-family);
+}
+
 .hero p {
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
   margin-bottom: 10px;
 }
-.description{
+.description {
   padding: 0 20px;
 }
-@media(max-width:960px){
-  .description{
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 45px;
+  line-height: 80px;
+}
+
+.about-section-content {
+  margin: 0 30px;
+}
+
+@media (max-width: 960px) {
+  .description {
     text-align: center;
   }
-  h1{
+  h1 {
     font-size: 15px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  
 }
 
 /*.socials{

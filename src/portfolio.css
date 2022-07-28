@@ -70,7 +70,10 @@ h2 {
   font-size: 24px;
   font-family: var(--default-font-family);
 }
-
+.content a{
+  text-decoration: none;
+  color: #FFCA2C;
+}
 @media (max-width: 960px) {
   .description {
     text-align: center;

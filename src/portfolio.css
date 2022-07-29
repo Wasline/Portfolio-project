@@ -2,6 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondery-color: #f2f2f2;
+  --cool-color: #ffca2c;
 }
 
 body {
@@ -11,6 +12,20 @@ body {
     rgb(0, 0, 0) 99.4%
   );
   color: var(--secondery-color);
+}
+
+nav {
+  padding: 10px 0;
+  margin: 30px;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 20px;
+  font-family: var(--default-font-family);
+}
+.active {
+  color:var(--cool-color) !important;
 }
 
 h1 {
@@ -29,7 +44,7 @@ p {
 .hero {
   background-color: var(--secondery-color);
   text-align: center;
-  margin: 50px 50px;
+  margin: 0 50px 50px;
   color: black;
 }
 
@@ -56,7 +71,7 @@ h2 {
   font-size: 45px;
   line-height: 80px;
 }
-.content img{
+.content img {
   height: 200px;
   width: 450px;
   display: block;
@@ -66,15 +81,18 @@ h2 {
 .content {
   margin: 0 30px;
 }
-.content h3{
+.content h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
 }
-.content a{
+.content a {
   text-decoration: none;
-  color: #FFCA2C;
 }
+
 @media (max-width: 960px) {
+body{
+  margin-bottom: 40px;
+}
   .description {
     text-align: center;
   }
@@ -85,10 +103,9 @@ h2 {
     text-align: center;
     padding: 0;
   }
-  
 }
-
-/*.socials{
+/*
+.socials{
     background-color: #f2f2f2;
   text-align: center;
   margin-bottom: 10px;

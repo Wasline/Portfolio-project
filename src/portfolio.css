@@ -67,6 +67,11 @@ h2 {
   padding: 0 20px;
 }
 
+.description a:hover{
+color: var(--secondery-color);
+  transition: all 100ms ease-in-out;
+}
+
 .content-container {
   padding: 160px 20px;
 }
@@ -102,14 +107,6 @@ footer {
   margin: 30px 0;
 }
 
-/*footer .contact-box {
-  background-color: var(--secondery-color);
-  padding: 20px;
-  margin: 30px 500px 0;
-  color: black;
- 
-}
-*/
 footer .email-link {
   text-decoration: none;
   font-size: 24px;

@@ -14,6 +14,10 @@ body {
   color: var(--secondery-color);
 }
 
+.logo {
+  font-size: 30px;
+}
+
 nav {
   padding: 10px 0;
   margin: 30px;
@@ -25,7 +29,7 @@ nav li {
   font-family: var(--default-font-family);
 }
 .active {
-  color:var(--cool-color) !important;
+  color: var(--cool-color) !important;
 }
 
 h1 {
@@ -89,10 +93,50 @@ h2 {
   text-decoration: none;
 }
 
-@media (max-width: 960px) {
-body{
-  margin-bottom: 40px;
+.content a:hover {
+  color: var(--secondery-color);
+  transition: all 100ms ease-in-out;
 }
+
+footer {
+  margin: 30px 0;
+}
+
+/*footer .contact-box {
+  background-color: var(--secondery-color);
+  padding: 20px;
+  margin: 30px 500px 0;
+  color: black;
+ 
+}
+*/
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--secondery-color);
+}
+
+footer .email-link:hover {
+  color: var(--cool-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: var(--cool-color);
+  padding: 10px;
+  width: 18px;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: var(--secondery-color);
+  transition: all 100ms ease-in-out;
+}
+
+@media (max-width: 960px) {
+  body {
+    margin-bottom: 40px;
+  }
   .description {
     text-align: center;
   }

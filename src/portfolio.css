@@ -57,6 +57,14 @@ h2 {
   font-family: var(--heading-font-family);
 }
 
+.carousel .carousel-item {
+    max-height:550px;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
 .hero p {
   font-size: 24px;
   font-weight: normal;
@@ -73,7 +81,7 @@ color: var(--secondery-color);
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 48px 20px;
 }
 
 .content h1 {
@@ -104,7 +112,7 @@ color: var(--secondery-color);
 }
 
 footer {
-  margin: 30px 0;
+  margin: 30px 0 40px;
 }
 
 footer .email-link {

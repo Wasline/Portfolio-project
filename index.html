@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"content=" width-device-width,initial-scole=1.0"/>
+  <meta name="viewport" content=" width-device-width,initial-scole=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport"
     content="Wasline Saint Fleur - Junior front-end developer, based in Montreal. Passionate, curious and always on the lookout for improvement.">
@@ -22,7 +22,6 @@
 
   <link rel="stylesheet" href="src/portfolio.css">
 </head>
-
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg">
@@ -62,26 +61,90 @@
     Below are some examples of achievements
   </p>
   <div class="container">
-    <div class="row">
-      <div class="col d-none d-sm-block">
-        <img src="src/weather.png" alt="Weather app" class="img-fluid border border-4 rounded">
-      </div>
-      <div class="col">
-        <div class="description">
-          <h2 class="mb-4">
-            Weather app
-          </h2>
-          <p class="mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <a href="/work.html" class="btn btn-warning" title="Learn more button">Learn more</a>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row center">
+            <div class="col d-flex justify-content-center ">
+              <img src="src\ReactWeather.PNG" alt="Weather app" class="img-fluid border border-4 rounded">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="description">
+                <h2 class="mb-4">
+                  React Weather app
+                </h2>
+                <p class="mb-4">
+                  I built a Vanilla JavaScript weather app that provides up-to-date information on a current location or
+                  entered city using an API from OpenWeather. The
+                  open-source code is on GitHub, and the app is hosted on Netlify. Building upon
+                  my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development
+                  workflow, hosting, and
+                  advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.
+                </p>
+                <a href="/work.html" class="btn btn-warning" title="Learn more button">Learn more</a>
+              </div>
+            </div>
+          </div>
         </div>
-
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col d-flex justify-content-center ">
+              <img src="src\dictionary.PNG" alt="Weather app" class="img-fluid border border-4 rounded">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="description">
+                <h2 class="mb-4">
+                  Dictionary app
+                </h2>
+                <p class="mb-4">
+                  I built a dictionary app that provides up-to-date information on a current location or
+                  entered city using an API from OpenWeather. The
+                  open-source code is on GitHub, and the app is hosted on Netlify. Building upon
+                  my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development
+                  workflow, hosting, and
+                  advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.
+                </p>
+                <a href="/work.html" class="btn btn-warning" title="Learn more button">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col d-flex justify-content-center ">
+              <img src="src\weather.png" alt="Weather app" class="img-fluid border border-4 rounded">
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="description">
+                <h2 class="mb-4">
+                  Weather app
+                </h2>
+                <p class="mb-4">
+                  I built a Vanilla JavaScript weather app that provides up-to-date information on a current location or
+                  entered city using an API from OpenWeather. The
+                  open-source code is on <a href=" https://github.com/Wasline/my-weather-app" class="GitHubRepo"
+                    title="GitHub Repo link">GitHub</a>
+                  , and the app is hosted on Netlify. Building upon
+                  my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development
+                  workflow, hosting, and
+                  advanced JavaScript. I combined all of these skills to create a fully-functioning weather app.
+                </p>
+                <a href="/work.html" class="btn btn-warning" title="Learn more button">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
+      <button class="arrow carousel-control-prev justify-content-start" type="button"
+        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next justify-content-end" type="button"
+        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
   <footer>
@@ -103,7 +166,5 @@
     </div>
     <p class="mt-3 text-center fs-6">Coded by Wasline Saint Fleur, and it is open-sourced</p>
   </footer>
-  </div>
 </body>
-
 </html>

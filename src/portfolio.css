@@ -157,3 +157,7 @@ footer .social-links a:hover {
 .contact-social-links a {
   color: var(--cool-color);
 }
+.GitHubRepo{
+  text-decoration: none;
+  color: var(--secondery-color);
+}
